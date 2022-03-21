@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100vw;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  padding: 1rem;
+  background-color: bisque;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav-logo {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+}
+
+.nav-menu a:hover {
+  background-color: goldenrod;
+  border-radius: 4px;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumbotron .items {
+  padding-right: 2rem;
+}
+
+.jumbotron .items h2 {
+  font-size: 3rem;
+}
+
+.jumbotron .items p {
+  font-size: 1.25rem;
+  margin: 3rem 0;
+}
+
+.jumbotron .items .primary {
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+.jumbotron .items .secondary {
+  background: none;
+  border: 0;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.jumbotron .items .secondary:hover {
+  text-decoration: underline;
+}
+
+.jumbotron .picture {
+  max-width: 640px;
+  border-radius: 4px;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.about {
+  margin: 3rem auto;
+}
+
+.about h2 {
+  margin: 1.5rem 0;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 240px;
+  background-color: #1b1b1b;
+  color: antiquewhite;
+  border-radius: 4px;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+.contact h3 {
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact input {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.contact input[type="text"] {
+  padding: 0.5rem 1.5rem;
+  width: 320px;
+}
+
+.contact input[type="submit"] {
+  padding: 0.25rem 0.5rem;
+  background-color: bisque;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
